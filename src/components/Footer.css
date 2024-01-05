@@ -1,0 +1,18 @@
+
+.alpha{
+    width: 95%;
+    height: fit-content;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+.beta{
+    width:100%;
+}
+.alpha::-webkit-scrollbar{
+    display:none;
+}
+h3{
+    margin-left: 20px;
+}
